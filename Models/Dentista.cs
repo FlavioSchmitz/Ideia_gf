@@ -2,7 +2,7 @@ namespace Models
 {
     public class Dentista
     {
-        public string NomeDentista { get; set; }
-        public string SobrenomeDentista { get; set; }
+        public string Nome { get; set; }
+        public string Sobrenome { get; set; }
     }
 }

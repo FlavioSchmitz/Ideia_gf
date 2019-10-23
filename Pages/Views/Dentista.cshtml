@@ -1,0 +1,15 @@
+@page
+@model DentistasModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Dentista</h1>
+    <ul>
+        @foreach (var dentista in Model.Dentistas)
+        {
+            <li>@dentista.Nome <span>@pdentista.Sobrenome</span></li>
+        }
+    </ul>
+</div>

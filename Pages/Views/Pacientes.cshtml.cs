@@ -16,10 +16,10 @@ namespace Ideia_gf.Pages
         {
             Pacientes = new List<Paciente> 
             {
-                new Paciente { Nome = "Arthur", Sobrenome = "Dent" },
-                new Paciente { Nome = "Ford", Sobrenome = "Pefect" },
-                new Paciente { Nome = "Trillian", Sobrenome = "McTricia" },
-                new Paciente { Nome = "Zaphod", Sobrenome = "Beeblebrox" },
+                new Paciente { Nome = "Zeferino", Sobrenome = "Dent" },
+                new Paciente { Nome = "Jagunço", Sobrenome = "Pefect" },
+                new Paciente { Nome = "Silva", Sobrenome = "McTricia" },
+                new Paciente { Nome = "Jaburu", Sobrenome = "Beeblebrox" },
             };
         }
     }
